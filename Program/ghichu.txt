@@ -1,0 +1,22 @@
+﻿Nên làm thêm:
+-thêm chức năng: nếu tạo admin mới thì xóa admin cũ
+-kiêm tra xem nếu đã có admin thì có ghi đè ko
+-nghiên cứu đưa con trỏ của file  đến trực tiếp chỗ cần đổi thông tin để sửa file, ko cần xóa ghi đè
+-thêm vào chỗ thay đổi thông tin cá nhân, hỏi người dùng có muốn đổi thông tin đó hay ko, 
+nếu ko thì đổi thông tin tiếp theo
+
+-Sang:
++Hàm viết mật khẩu còn chưa sửa đc nếu nhập dấu space thì có cho hay ko
++Hàm viết mật khẩu chưa xóa được mật khẩu nếu nhập sai
++Thêm chức năng kiểm nếu người dùng nhập dư kí tự thì bắt nhập lại (QUAN TRỌNG)
++chưa viết chức năng 1.6
+
+-Lưu ý khi làm bài
++	//sau mỗi câu lệnh nhập 1 số cuối 1 hàm, nên viết cin.ignore(); 
+để xóa bộ nhớ đệm, ko ảnh hưởng tới các hàm cin.getline() viêt sau nó
++
+
+//Các lỗi:
++Ở các hàm addBook, vì sau đó ta ghi đè file, nên chỉ cần ta nhập lỗi (vd như dư 1 kí tự trong ISBN)
+=>dẫn đến hư toàn bộ file
+cần fix lỗi này

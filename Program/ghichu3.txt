@@ -1,0 +1,11 @@
+﻿Viết lại hàm in ra tiêu đề mục 
+Xóa 1 độc giả --- > Xóa luôn thông tin thẻ mượn
+Mỗi độc giả chỉ được làm thẻ mượn 1 lần
+Ko cho nhầm trùng tên user
+Ko cho nhập trùng mã reader
+Ko cho nhập trùng mã sách
+Loi chinh ta
+In so ngay qua han
+Them nhan 0 de quay ve chuc nang truoc
+Nếu số sách > số sách thư viện
+Nếu số sách mượn > số sách thư viện có

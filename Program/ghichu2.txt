@@ -1,0 +1,12 @@
+﻿//Struct ghi trong header 
+//chuaw xong 2.6
+//thêm chức năng chỉnh sửa lại số lượng sách của sách bị mất (ghi đè file)
+
+cout << setw(col) << std::left << "Chuc nang" << "Chon" << endl;
+	cout << setw(col) << std::left << "Quan li nguoi dung" << 1 << endl;
+	cout << setw(col) << std::left << "Quan li doc gia" << 2 << endl;
+	cout << setw(col) << std::left << "Quan li sach" << 3 << endl;
+	cout << setw(col) << std::left << "Lap phieu muon sach" << 4 << endl;
+	cout << setw(col) << std::left << "Lap phieu tra sach" << 5 << endl;
+	cout << setw(col) << std::left << "Thong ke" << 6 << endl;
+	cout << setw(col) << std::left << "Dang xuat" << 7 << endl;
